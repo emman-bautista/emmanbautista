@@ -1,0 +1,134 @@
+/* CSS Document */
+body {
+	background-color: #eee;
+}
+#contentwrapper {
+	margin-top:60px;
+}
+
+
+#introduction, .information {
+	width: 960px;
+	margin: auto;
+}
+
+.hero-unit {
+	background-color:#bbb;
+	padding:30px;
+}
+
+.hero-unit h1{
+	font-size: 40px;
+}
+
+[class^="social-icon-"], [class*=" social-icon-"] {
+	line-height: 30px;
+	height:30px;
+	font-size:12px;
+	font-weight:  600;
+	color: white;
+	padding:4px 4px 4px 16px;
+	border-radius:2px;
+	margin-bottom:10px;
+	
+}
+
+[class^="social-icon-"]:hover, [class*=" social-icon-"]:hover {
+	color:white;
+}
+.social-icon-facebook {
+	background: url('../img/icons/facebook.png') no-repeat -4px 0 #3B5998;
+	background-size: 24px 24px;
+}
+.social-icon-linkedin {
+	background: url('../img/icons/linkedin.png') no-repeat 0px -3px #016599;
+	padding:4px 4px 4px 22px;
+	background-size: 24px 24px;
+}
+.social-icon-twitter {
+	background: url('../img/icons/twitter.png') no-repeat 0px -3px #00ACEE;
+	padding:4px 4px 4px 22px;
+	background-size: 24px 24px;
+}
+.social-icon-google {
+	background: url('../img/icons/google+.png') no-repeat 0px 0 #CF3616;
+	padding:4px 4px 4px 22px;
+	background-size: 24px 24px;
+}
+
+.social-icon-rss {
+	background: url('../img/icons/rss.png') no-repeat 0px -1px #F46B13;
+	padding:4px 4px 4px 22px;
+	background-size: 24px 24px;
+}
+
+.dashed {
+	height:2px;
+	border-bottom:dashed 1px #666;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) { 
+
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	#contentwrapper {
+		margin-top:70px;
+	}
+	#introduction , .information {
+		width: 96%;
+	}
+	
+	.hero-unit {
+		padding:20px;
+		
+	}
+	
+	.navbar-fixed-top {
+		position:fixed;
+		top:0;
+		left:0;
+		width: auto;
+		margin: 0;
+	}	
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	#contentwrapper {
+		margin-top:70px;
+	}
+	
+	#introduction,  .information {
+		width: 100%;
+	}
+	
+	.hero-unit {
+		padding:20px;
+		
+	}
+	
+	.hero-unit p {
+		line-height:20px;
+		font-size:14px;
+	}
+	
+	.hero-unit h1, h1{
+		font-size: 24px;
+	}
+	
+	.navbar-fixed-top {
+		position:fixed;
+		top:0;
+		left:0;
+		width: auto;
+		margin: 0;
+	}
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	
+}
